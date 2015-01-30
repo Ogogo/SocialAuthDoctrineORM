@@ -1,0 +1,29 @@
+{
+    "name": "ogogo/social-auth-doctrine-orm",
+    "description": "An extension of SocialAuth that provides integration with Doctrine2 ORM.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": ["zf2", "doctrine2", "orm", "zfc", "oauth", "socialauth", "hybridauth"],
+    "homepage": "https://github.com/ogogo/SocialAuthDoctrineORM",
+    "authors": [ {
+        "name": "Finbarr McCarthy",
+        "email": "finbarr@finbarr.org",
+        "homepage": "http://ogogo.com/",
+        "role": "Developer"
+    } ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "ogogo/social-auth": "*",
+        "zf-commons/zfc-user-doctrine-orm": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SocialAuthDoctrineORM": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
+
